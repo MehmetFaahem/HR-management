@@ -33,7 +33,7 @@ export const NavigationLayout: React.FC<Props> = ({ children }) => {
 
     {
       key: '/organizations/:organizationId/home',
-      label: 'Home',
+      label: 'Dashboard',
       position: 'leftbar',
 
       isVisible: !!organization,

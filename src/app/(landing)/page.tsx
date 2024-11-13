@@ -3,6 +3,18 @@ import { LandingCTA } from '@/designSystem/landing/LandingCTA'
 import { LandingContainer } from '@/designSystem/landing/LandingContainer'
 import LandingFAQ from '@/designSystem/landing/LandingFAQ'
 import { LandingFeatures } from '@/designSystem/landing/LandingFeatures'
+
+const avatarItems = [
+  { src: 'https://randomuser.me/api/portraits/women/1.jpg' },
+  { src: 'https://randomuser.me/api/portraits/men/2.jpg' },
+  { src: 'https://randomuser.me/api/portraits/women/3.jpg' }
+]
+
+const logos = [
+  { url: 'https://example.com/logo1.png' },
+  { url: 'https://example.com/logo2.png' },
+  { url: 'https://example.com/logo3.png' }
+]
 import { LandingHero } from '@/designSystem/landing/LandingHero'
 import { LandingHowItWorks } from '@/designSystem/landing/LandingHowItWorks'
 import { LandingPainPoints } from '@/designSystem/landing/LandingPainPoints'
